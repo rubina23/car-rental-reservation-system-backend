@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cors());
 
 //application routes
-app.use('/api/auth/signup', UserRoutes);
+app.use('/api/auth', UserRoutes);
 app.use('/api/cars', CarRoutes);
 app.use('/api', BookingRoutes);
 
