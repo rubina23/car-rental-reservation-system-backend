@@ -1,10 +1,10 @@
 # Assignment 03 : Car Rental Reservation System Backend
 
-** Live Server Link: ** https://car-rental-reservation-system-backend-six.vercel.app/
+**Live Server Link:** https://car-rental-reservation-system-backend-six.vercel.app/
 
-** GitHub Repository URL: ** https://github.com/rubina23/car-rental-reservation-system-backend
+**GitHub Repository URL:** https://github.com/rubina23/car-rental-reservation-system-backend
 
-** Project Overview Video Link: ** https://drive.google.com/drive/folders/1LUOBK0JVvVOIW0C1AsxNVoAm8ezoC2UV
+**Project Overview Video Link:** https://drive.google.com/drive/folders/1LUOBK0JVvVOIW0C1AsxNVoAm8ezoC2UV
 
 Car Rental Reservation System is a backend system for a car rental reservation platform built with TypeScript, Express.js, and MongoDB.
 
@@ -19,13 +19,13 @@ Car Rental Reservation System is a backend system for a car rental reservation p
 **Step - 5:** Project Structure
 
 ```
-                src/
-                |-- app/config/
-                |-- controllers/
-                |-- middlewares/
-                |-- models/
-                |-- routes/
-                |-- server.ts
+    src/
+    |-- app/config/
+    |-- controllers/
+    |-- middlewares/
+    |-- models/
+    |-- routes/
+    |-- server.ts
 ```
 
 **Step - 6:** Implement User Model
