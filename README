@@ -58,9 +58,9 @@ Step - 17: Implement boookingRoutes
 
 Step - 18: Completed CRUD operation (according to assignment requirement)
 
-Step - 19: Server Setup: Setup the Express server and connect to MongoDB //next
+Step - 19: Server Setup: Setup the Express server and connect to MongoDB
 
-Step - 20: Running the Server : node  .\dist\server.js
+Step - 20: Running the Server : node  .\dist\server.js //next
 
 Step - 21: Deploy Vercel and get Live Server Link
 
