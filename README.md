@@ -8,13 +8,14 @@
 
 Car Rental Reservation System is a backend system for a car rental reservation platform built with TypeScript, Express.js, and MongoDB.
 
-**Step - 1:** Install
+**Step - 1:** Install:
 
-````
+```
     - Node.js
     - NPM
     - MongoDB
 ```
+
 **Step - 2:** Install Dependencies
 
 **Step - 3:** Set Up Environment Variables
@@ -23,8 +24,7 @@ Car Rental Reservation System is a backend system for a car rental reservation p
 
 **Step - 5:** Project Structure
 
-````
-
+```
     src/
     |-- app/config/
     |-- controllers/
@@ -32,7 +32,6 @@ Car Rental Reservation System is a backend system for a car rental reservation p
     |-- models/
     |-- routes/
     |-- server.ts
-
 ```
 
 **Step - 6:** Implement User Model
@@ -66,4 +65,3 @@ Car Rental Reservation System is a backend system for a car rental reservation p
 **Step - 20:** Running the Server : node .\dist\server.js
 
 **Step - 21:** Deploy Vercel and get Live Server Link
-```
