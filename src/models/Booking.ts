@@ -4,7 +4,7 @@ import { ICar } from './Car';
 
 interface IBooking extends Document {
   date: string;
-  user: IUser['_id'];
+  user?: IUser['_id'];
   car: ICar['_id'];
   startTime: string;
   endTime: string | null;

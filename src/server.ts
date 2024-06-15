@@ -1,6 +1,6 @@
 import config from './app/config';
 import mongoose from 'mongoose';
-import express from 'express';
+import express, { Request, Response } from 'express';
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes';
 import carRoutes from './routes/carRoutes';
@@ -15,6 +15,10 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/cars', carRoutes);
 app.use('/api/bookings', bookingRoutes);
+
+app.get('/', (req: Request, res: Response) => {
+  res.send('Welcome to Car Rental Reservation System Backend');
+});
 
 app.use(errorHandler);
 

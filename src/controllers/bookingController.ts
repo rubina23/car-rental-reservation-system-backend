@@ -21,17 +21,17 @@ export const createBooking = async (
     if (!car || car.status === 'unavailable') {
       throw new Error('Car is not available');
     }
-    const totalCost =
-      (car.pricePerHour *
-        (new Date(endTime).getTime() - new Date(startTime).getTime())) /
-      (1000 * 60 * 60);
+    // const totalCost =
+    //   (car.pricePerHour *
+    //     (new Date(endTime).getTime() - new Date(startTime).getTime())) /
+    //   (1000 * 60 * 60);
     const booking = new Booking({
       date,
-      user: req.user!._id,
+      // user: req.user!._id,
       car: carId,
       startTime,
       endTime: endTime || null,
-      totalCost,
+      // totalCost,
     });
     await booking.save();
     car.status = 'unavailable';

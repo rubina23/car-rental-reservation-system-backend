@@ -19,8 +19,8 @@ export const authMiddleware = async (
     const user = await User.findById(decoded.id);
     if (!user) throw new Error();
 
-    req.user = user;
-    next();
+    // req.user = user;
+    // next();
   } catch (error) {
     res.status(401).send({ success: false, message: 'Please authenticate.' });
   }
@@ -31,10 +31,14 @@ export const adminMiddleware = (
   res: Response,
   next: NextFunction,
 ) => {
-  if (req.user?.role !== 'admin') {
-    return res
-      .status(403)
-      .send({ success: false, message: 'Access forbidden: Admins only.' });
-  }
+  return res
+    .status(403)
+    .send({ success: false, message: 'Access forbidden: Admins only.' });
+
+  // if (req.user?.role !== 'admin') {
+  //   return res
+  //     .status(403)
+  //     .send({ success: false, message: 'Access forbidden: Admins only.' });
+  // }
   next();
 };

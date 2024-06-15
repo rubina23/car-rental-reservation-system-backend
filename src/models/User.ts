@@ -3,6 +3,7 @@ import bcrypt from 'bcryptjs';
 
 export interface IUser extends Document {
   name: string;
+  user: string; //sgfsgdhdh
   email: string;
   role: 'user' | 'admin';
   password: string;
@@ -14,6 +15,7 @@ export interface IUser extends Document {
 const userSchema = new Schema<IUser>(
   {
     name: { type: String, required: true },
+    user: { type: String }, //ddfgggggggggggggg
     email: { type: String, required: true, unique: true },
     role: { type: String, enum: ['user', 'admin'], required: true },
     password: { type: String, required: true },
