@@ -1,20 +1,18 @@
-```
+<!-- ``` -->
+
 #**Assignment # 03 : Car Rental Reservation System Backend**
 
--------------------------------------------------------------------------------------------------
-##__Live Server Link:__ https://car-rental-reservation-system-backend-six.vercel.app/
+---
 
-__GitHub Repository URL:__ https://github.com/rubina23/car-rental-reservation-system-backend
+##**Live Server Link:** https://car-rental-reservation-system-backend-six.vercel.app/
 
-Project Overview Video Link: https://drive.google.com/drive/folders/1LUOBK0JVvVOIW0C1AsxNVoAm8ezoC2UV
--------------------------------------------------------------------------------------------------
+**GitHub Repository URL:** https://github.com/rubina23/car-rental-reservation-system-backend
+
+## Project Overview Video Link: https://drive.google.com/drive/folders/1LUOBK0JVvVOIW0C1AsxNVoAm8ezoC2UV
 
 Car Rental Reservation System is a backend system for a car rental reservation platform built with TypeScript, Express.js, and MongoDB.
 
-Step - 1: Install
-        - Node.js
-        - NPM
-        - MongoDB
+Step - 1: Install - Node.js - NPM - MongoDB
 
 Step - 2: Install Dependencies
 
@@ -23,13 +21,13 @@ Step - 3: Set Up Environment Variables
 Step - 4: Initialize TypeScript Configuration
 
 Step - 5: Project Structure
-            src/
-            |-- app/config/
-            |-- controllers/
-            |-- middlewares/
-            |-- models/
-            |-- routes/
-            |-- server.ts
+src/
+|-- app/config/
+|-- controllers/
+|-- middlewares/
+|-- models/
+|-- routes/
+|-- server.ts
 
 Step - 6: Implement User Model
 
@@ -59,9 +57,10 @@ Step - 18: Completed CRUD operation (according to assignment requirement)
 
 Step - 19: Server Setup: Setup the Express server and connect to MongoDB
 
-Step - 20: Running the Server : node  .\dist\server.js
+Step - 20: Running the Server : node .\dist\server.js
 
 Step - 21: Deploy Vercel and get Live Server Link
 
+<!-- ```
 
-```
+``` -->
