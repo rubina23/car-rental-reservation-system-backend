@@ -1,15 +1,5 @@
 import { Schema, model, Document } from 'mongoose';
 
-// export type TCar = {
-//   name: string;
-//   description: string;
-//   color: string;
-//   isElectric: boolean;
-//   status: 'available' | 'unavailable';
-//   features: string[];
-//   pricePerHour: number;
-//   isDeleted: boolean;
-// };
 export interface ICar extends Document {
   name: string;
   description: string;
@@ -39,5 +29,4 @@ const carSchema = new Schema<ICar>(
   { timestamps: true },
 );
 
-// export const Car = model<TCar>('Car', carSchema);
 export default model<ICar>('Car', carSchema);

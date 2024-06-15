@@ -10,6 +10,7 @@ const signupSchema = z.object({
   password: z.string().min(6),
   phone: z.string(),
   address: z.string(),
+  // user: z.string(),
 });
 
 export const signup = async (

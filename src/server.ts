@@ -1,7 +1,5 @@
-// import { error } from "console";
-// import app from './app';
 import config from './app/config';
-import mongoose from 'mongoose'; //pre
+import mongoose from 'mongoose';
 import express from 'express';
 import dotenv from 'dotenv';
 import authRoutes from './routes/authRoutes';
@@ -20,23 +18,6 @@ app.use('/api/bookings', bookingRoutes);
 
 app.use(errorHandler);
 
-// const port = process.env.PORT || 3000;
-
-// mongoose
-//   .connect(process.env.MONGO_URI!, {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   })
-//   .then(() => {
-//     console.log('Connected to MongoDB');
-//     app.listen(port, () => {
-//       console.log(`Server is running on port ${port}`);
-//     });
-//   })
-//   .catch((err) => {
-//     console.error('Failed to connect to MongoDB', err);
-//   });
-
 async function main() {
   try {
     await mongoose.connect(config.database_url as string);
@@ -51,3 +32,8 @@ async function main() {
 }
 
 main();
+
+/**
+ * run server: node  .\dist\server.js
+ *
+ */
