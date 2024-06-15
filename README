@@ -62,5 +62,7 @@ Step - 19: Server Setup: Setup the Express server and connect to MongoDB
 
 Step - 20: Running the Server : node  .\dist\server.js
 
+Step - 21: Deploy Vercel and get Live Server Link
+
 
 ```
