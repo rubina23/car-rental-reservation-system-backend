@@ -14,9 +14,9 @@ Car Rental Reservation System is a backend system for a car rental reservation p
 
 **Step - 3:** Set Up Environment Variables
 
-Step - 4: Initialize TypeScript Configuration
+**Step - 4:** Initialize TypeScript Configuration
 
-Step - 5: Project Structure
+**Step - 5:** Project Structure
 src/
 |-- app/config/
 |-- controllers/
@@ -25,34 +25,34 @@ src/
 |-- routes/
 |-- server.ts
 
-Step - 6: Implement User Model
+**Step - 6:** Implement User Model
 
-Step - 7: Implement Car Model
+**Step - 7:** Implement Car Model
 
-Step - 8: Implement Booking Model
+**Step - 8:** Implement Booking Model
 
-Step - 9: Implement Authentication Middleware
+**Step - 9:** Implement Authentication Middleware
 
-Step - 10: Implement Error Handling Middleware
+**Step - 10:** Implement Error Handling Middleware
 
-Step - 11: Implement Validation with Zod
+**Step - 11:** Implement Validation with Zod
 
-Step - 12: Implement Authentication Controller
+**Step - 12:** Implement Authentication Controller
 
-Step - 13: Implement Car Controller
+**Step - 13:** Implement Car Controller
 
-Step - 14: Implement Booking Controller
+**Step - 14:** Implement Booking Controller
 
-Step - 15: Implement authRoutes
+**Step - 15:** Implement authRoutes
 
-Step - 16: Implement carRoutes
+**Step - 16:** Implement carRoutes
 
-Step - 17: Implement boookingRoutes
+**Step - 17:** Implement boookingRoutes
 
-Step - 18: Completed CRUD operation (according to assignment requirement)
+**Step - 18:** Completed CRUD operation (according to assignment requirement)
 
-Step - 19: Server Setup: Setup the Express server and connect to MongoDB
+**Step - 19:** Server Setup: Setup the Express server and connect to MongoDB
 
-Step - 20: Running the Server : node .\dist\server.js
+**Step - 20:** Running the Server : node .\dist\server.js
 
-Step - 21: Deploy Vercel and get Live Server Link
+**Step - 21:** Deploy Vercel and get Live Server Link
